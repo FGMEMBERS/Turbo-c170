@@ -24,12 +24,12 @@
 	    <texture>Liveries/wing.deeqa.png</texture>
 	    	    </liverywing>
 	    
-	    <c172p>
+	    <c170>
 	     <immat>false</immat>
       <fairing1>false</fairing1>
       <fairing2>true</fairing2>
       <fairing3>true</fairing3>
-      </c172p>
+      </c170>
       
     </model>
   </sim>

@@ -63,12 +63,12 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
       <index type="int">0</index>
     </liverywing>
 
-    <c172p>
+    <c170>
       <immat type="bool">false</immat>
       <fairing1 type="bool">true</fairing1>
       <fairing2 type="bool">false</fairing2>
       <fairing3 type="bool">false</fairing3>
-    </c172p>
+    </c170>
     <hide-yoke type="bool">false</hide-yoke>
   </model>
 
@@ -249,7 +249,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
 
  <nasal>
  
-    <c172p>
+    <c170>
       <file>Aircraft/c172p/Nasal/liveries.nas</file>
       <file>Aircraft/c172p/Nasal/immat.nas</file>
       <file>Aircraft/c172p/Nasal/doors.nas</file>
@@ -261,7 +261,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
         ki266.new(0);
         aircraft.data.add( "engines/engine[0]/egt-bug-norm" );
       ]]></script>
-    </c172p>
+    </c170>
 
   <electrical>
    <file>Aircraft/c172p/Nasal/c170-electrical.nas</file>
