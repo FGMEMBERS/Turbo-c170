@@ -408,7 +408,7 @@ refs 3
 kids 0
 OBJECT poly
 name "BackSeat"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 28
 1.0541000 -0.6216680 -0.4612030
@@ -1378,7 +1378,7 @@ refs 3
 kids 0
 OBJECT poly
 name "BeaconSwitch"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 10
 -0.3559530 -0.2586840 0.1459720
@@ -5552,7 +5552,7 @@ refs 4
 kids 0
 OBJECT poly
 name "CopilotSeat"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 24
 0.3244080 -0.5993980 -0.4341330
@@ -5844,7 +5844,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Exhaust"
-texture "c172p-02.png"
+texture "c170-02.png"
 texrep 1 1
 numvert 16
 -1.2958500 -0.7707840 -0.2916730
@@ -7643,7 +7643,7 @@ refs 4
 kids 0
 OBJECT poly
 name "baggagedoor"
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 44
 1.4549900 -0.1666660 0.4785510
@@ -7905,7 +7905,7 @@ refs 3
 kids 0
 OBJECT poly
 name "charniere3"
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 28
 -0.1284780 -0.3360310 0.5340180
@@ -8098,7 +8098,7 @@ refs 4
 kids 0
 OBJECT poly
 name "charniere4"
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 28
 -0.1284780 -0.3360310 -0.5362970
@@ -8427,7 +8427,7 @@ refs 3
 kids 0
 OBJECT poly
 name "fuselage_1.001"
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 1158
 1.7383900 0.1671720 0.0000000
@@ -17038,7 +17038,7 @@ refs 4
 kids 0
 OBJECT poly
 name "leftdoor"
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 125
 -0.1049800 -0.6351800 0.5049100
@@ -17787,7 +17787,7 @@ kids 0
 OBJECT poly
 name "LeftWheelStrut"
 loc -1.0633980 0.0000000 0.0000000
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 24
 0.7640810 -0.6510240 0.4137730
@@ -17860,7 +17860,7 @@ refs 4
 kids 0
 OBJECT poly
 name "rightdoor"
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 125
 -0.1049800 -0.6352980 -0.5060470
@@ -18609,7 +18609,7 @@ kids 0
 OBJECT poly
 name "RightWheelStrut"
 loc -1.0534008 0.0000000 0.0000000
-texture "c172p-fuselage-skyhawk.png"
+texture "c170-fuselage-skyhawk.png"
 texrep 1 1
 numvert 24
 0.5764180 -1.1100380 -1.0845690
@@ -20324,7 +20324,7 @@ refs 4
 kids 0
 OBJECT poly
 name "LandingLightSwitch"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 10
 -0.3559530 -0.2110330 0.1209290
@@ -25554,7 +25554,7 @@ kids 0
 OBJECT poly
 name "LeftWheel"
 loc -1.3736151 0.4516672 -0.5651441
-texture "c172p-02.png"
+texture "c170-02.png"
 texrep 1 1
 numvert 64
 0.9914834 -1.5317520 1.6385264
@@ -29466,7 +29466,7 @@ refs 3
 kids 0
 OBJECT poly
 name "NavLightSwitch"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 10
 -0.3559530 -0.2586840 0.1717110
@@ -29536,7 +29536,7 @@ kids 0
 OBJECT poly
 name "NoseWheel"
 loc 6.3421807 0.2706442 0.0000000
-texture "c172p-02.png"
+texture "c170-02.png"
 texrep 1 1
 numvert 64
 -0.9156601 -0.9560683 -0.0405261
@@ -30052,7 +30052,7 @@ kids 0
 OBJECT poly
 name "NoseWheelStrut"
 loc 5.3014808 0.8239548 0.0000000
-texture "c172p-02.png"
+texture "c170-02.png"
 texrep 1 1
 numvert 24
 -0.1799615 -1.1652554 0.0248500
@@ -44867,7 +44867,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Panel_1"
-texture "c172p-int-02.png"
+texture "c170-int-02.png"
 texrep 1 1
 numvert 27
 -0.5960170 0.0590140 0.4959520
@@ -48060,7 +48060,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PilotSeat"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 24
 0.3244080 -0.5993980 0.0507910
@@ -48265,7 +48265,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PitotHeatSwitch"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 10
 -0.3559530 -0.2586840 0.1977980
@@ -48334,7 +48334,7 @@ refs 4
 kids 0
 OBJECT poly
 name "PitotTube"
-texture "c172p-02.png"
+texture "c170-02.png"
 texrep 1 1
 numvert 9
 -0.2277170 0.4641610 1.5342211
@@ -61708,7 +61708,7 @@ numvert 13
 kids 0
 OBJECT poly
 name "Propeller"
-texture "c172p-02.png"
+texture "c170-02.png"
 texrep 1 1
 numvert 26
 -1.8048900 -0.1887480 0.8776520
@@ -62627,7 +62627,7 @@ kids 0
 OBJECT poly
 name "RightWheel"
 loc -1.3271642 0.4614990 0.6288770
-texture "c172p-02.png"
+texture "c170-02.png"
 texrep 1 1
 numvert 64
 0.9912750 -1.5429871 -1.8342886
@@ -63543,7 +63543,7 @@ refs 3
 kids 0
 OBJECT poly
 name "StrobeSwitch"
-texture "c172p-int-02.png"
+texture "c170-int-02.png"
 texrep 1 1
 numvert 10
 -0.3559530 -0.2586840 0.1209290
@@ -63667,7 +63667,7 @@ refs 4
 kids 0
 OBJECT poly
 name "TaxiLightSwitch"
-texture "c172p-int-01.png"
+texture "c170-int-01.png"
 texrep 1 1
 numvert 10
 -0.3559530 -0.2113810 0.1459720
