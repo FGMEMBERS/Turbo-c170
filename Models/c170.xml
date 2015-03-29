@@ -16,7 +16,7 @@
      rplayer.getNode("sim/model/door-positions/baggageDoor/position-norm", 1).alias(rplayer.getNode("sim/multiplay/generic/float[2]"));
 
      var livery_update = aircraft.livery_update.new(
-     "Aircraft/c172p/Models/Liveries", 10,
+     "Aircraft/c170/Models/Liveries", 10,
      func { print("c172p livery update") });
    </load>
 
