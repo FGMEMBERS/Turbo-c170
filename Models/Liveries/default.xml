@@ -8,30 +8,30 @@
       
       <livery>
         <name type="string">default</name>
-	 <index type="int">1</index>
-	 <texture>Liveries/fuselage2.png</texture>
+	<index type="int">1</index>
+	<texture>Liveries/fuselage2.png</texture>
       </livery>
       
-       <liverytail>
-	   <name type="string">default</name>
-	     <index type="int">1</index>
-	     <texture>Liveries/tail.png</texture>
-	    </liverytail>
-	    
-	 <liverywing>
-	    <name type="string">default</name>
-	     <index type="int">1</index>
-	     <texture>Liveries/wing.png</texture>
-	    </liverywing>
-	    
-	    <c170>
-	    <immat>true</immat>
-      <fairing1>false</fairing1>
-      <fairing2>false</fairing2>
-      <fairing3>false</fairing3>
+      <liverytail>
+	<name type="string">default</name>
+	<index type="int">1</index>
+	<texture>Liveries/tail.png</texture>
+      </liverytail>
+      
+      <liverywing>
+	<name type="string">default</name>
+	<index type="int">1</index>
+	<texture>Liveries/wing.png</texture>
+      </liverywing>
+      
+      <c170>
+	<immat>true</immat>
+	<fairing1>false</fairing1>
+	<fairing2>false</fairing2>
+	<fairing3>false</fairing3>
       </c170>
       
     </model>
-   
+    
   </sim>
 </PropertyList>

@@ -1,17 +1,17 @@
 <PropertyList>
-<!--
-    FGPanel for the C172p Mini Cockpit
-    Thorsten Brehm, October 2011
--->
- <comment>
-  <![CDATA[
-    Usage:
-    * To display the panel:
-      fgpanel --fg-root=... --panel=Aircraft/c170/Panels
-    # To send the data to the panel:
-      fgfs --generic=socket,out,<hz>,<host>,34200,udp,../Aircraft/c170/Panels/FGPanel_Protocol_c170
-  ]]>
- </comment>
+  <!--
+      FGPanel for the C172p Mini Cockpit
+      Thorsten Brehm, October 2011
+  -->
+  <comment>
+    <![CDATA[
+	     Usage:
+	     * To display the panel:
+	     fgpanel --fg-root=... --panel=Aircraft/c170/Panels
+	     # To send the data to the panel:
+	     fgfs --generic=socket,out,<hz>,<host>,34200,udp,../Aircraft/c170/Panels/FGPanel_Protocol_c170
+    ]]>
+  </comment>
 
   <game-mode type="bool">true</game-mode>
 

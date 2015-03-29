@@ -1,5 +1,5 @@
 <!-- 
-label-sto
+     label-sto
 
 Started summer 2000 by David Megginson, david@megginson.com.
 
@@ -19,24 +19,24 @@ properties' values.
 
 <PropertyList>
 
- <name>labelbcn</name>
+  <name>labelbcn</name>
 
- <w-base>14</w-base>
- <h-base>12</h-base>
+  <w-base>14</w-base>
+  <h-base>12</h-base>
 
- <layers>
+  <layers>
 
-  <layer>
-   <name>face</name>
-   <texture>
-    <path>Aircraft/Instruments/Textures/flaps.rgb</path>
-    <x1>0.65</x1>
-    <y1>0.39</y1>
-    <x2>0.82</x2>
-    <y2>0.52</y2>
-   </texture>
-  </layer>
+    <layer>
+      <name>face</name>
+      <texture>
+	<path>Aircraft/Instruments/Textures/flaps.rgb</path>
+	<x1>0.65</x1>
+	<y1>0.39</y1>
+	<x2>0.82</x2>
+	<y2>0.52</y2>
+      </texture>
+    </layer>
 
- </layers>
+  </layers>
 
 </PropertyList>

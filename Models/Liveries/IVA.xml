@@ -3,32 +3,32 @@
 <PropertyList>
   <sim>
     <model>
-     
+      
       
       
       <livery>
         <name type="string">IVA</name>
 	
 	<texture>Liveries/fuselage.IVA.png</texture>
-	      </livery>
+      </livery>
       
-       <liverytail>
-	     <name type="string">IVA</name>
-	  
-	    <texture>Liveries/tail.IVA.png</texture>
-	    	    </liverytail>
-	    
-	 <liverywing>
-	    <name type="string">IVA</name>
-	     
-	    <texture>Liveries/wing.IVA.png</texture>
-	    	    </liverywing>
-	    
-	    <c170>
-	     <immat>false</immat>
-      <fairing1>true</fairing1>
-      <fairing2>true</fairing2>
-      <fairing3>true</fairing3>
+      <liverytail>
+	<name type="string">IVA</name>
+	
+	<texture>Liveries/tail.IVA.png</texture>
+      </liverytail>
+      
+      <liverywing>
+	<name type="string">IVA</name>
+	
+	<texture>Liveries/wing.IVA.png</texture>
+      </liverywing>
+      
+      <c170>
+	<immat>false</immat>
+	<fairing1>true</fairing1>
+	<fairing2>true</fairing2>
+	<fairing3>true</fairing3>
       </c170>
       
     </model>

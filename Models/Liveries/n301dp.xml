@@ -3,32 +3,32 @@
 <PropertyList>
   <sim>
     <model>
-     
+      
       
       
       <livery>
         <name type="string">n301dp</name>
-	 <index type="int">0</index>
+	<index type="int">0</index>
 	<texture>Liveries/fuselage.n301dp.png</texture>
-	      </livery>
+      </livery>
       
-       <liverytail>
-	     <name type="string">n301dp</name>
-	     <index type="int">0</index>
-	    <texture>Liveries/tail.png</texture>
-	    	    </liverytail>
-	    
-	 <liverywing>
-	    <name type="string">n301dp</name>
-	     <index type="int">0</index>
-	    <texture>Liveries/wing.png</texture>
-	    	    </liverywing>
-	    
-	    <c170>
-	     <immat>false</immat>
-      <fairing1>true</fairing1>
-      <fairing2>true</fairing2>
-      <fairing3>true</fairing3>
+      <liverytail>
+	<name type="string">n301dp</name>
+	<index type="int">0</index>
+	<texture>Liveries/tail.png</texture>
+      </liverytail>
+      
+      <liverywing>
+	<name type="string">n301dp</name>
+	<index type="int">0</index>
+	<texture>Liveries/wing.png</texture>
+      </liverywing>
+      
+      <c170>
+	<immat>false</immat>
+	<fairing1>true</fairing1>
+	<fairing2>true</fairing2>
+	<fairing3>true</fairing3>
       </c170>
       
     </model>

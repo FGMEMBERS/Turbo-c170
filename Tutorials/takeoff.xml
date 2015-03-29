@@ -1,11 +1,11 @@
 <PropertyList>
   <name>Takeoff</name>
   <description>
-This tutorial starts from Half-Moon Bay (KHAF), a small airport on the coast near San Francisco, in clear, still, weather.
+    This tutorial starts from Half-Moon Bay (KHAF), a small airport on the coast near San Francisco, in clear, still, weather.
     
-This tutorial will teach you how to take-off, and climb at 600 feet per minute. You will level off at 1000ft to complete the tutorial.
+    This tutorial will teach you how to take-off, and climb at 600 feet per minute. You will level off at 1000ft to complete the tutorial.
   </description>
-  <audio-dir>Aircraft/c170/tutorial</audio-dir>
+  <audio-dir>Aircraft/c170/Tutorials</audio-dir>
   <timeofday>morning</timeofday>
   <presets>
     <airport-id>KHAF</airport-id>
@@ -58,8 +58,8 @@ This tutorial will teach you how to take-off, and climb at 600 feet per minute. 
   
   <step>
     <message>At the start of the take-off roll, you will control the direction of the aircraft using the
-      nose-wheel steering and rudder. As the aircraft takes off, you will use the ailerons and elevator
-      to control the direction and attitude of the aircraft.
+    nose-wheel steering and rudder. As the aircraft takes off, you will use the ailerons and elevator
+    to control the direction and attitude of the aircraft.
     </message>
     <wait>10</wait>
   </step>

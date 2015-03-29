@@ -3,12 +3,12 @@
   <description>
     Radios are used both for communication, and also for navigation.
 
-This tutorial will teach you how to tune the radio of the aircraft to pick up
-the ATIS - Automatic Terminal Information Service. This is broadcast by all
-but the smallest airports and provides information on the current ground-level
-weather, the altimeter setting and the runway in use.
+    This tutorial will teach you how to tune the radio of the aircraft to pick up
+    the ATIS - Automatic Terminal Information Service. This is broadcast by all
+    but the smallest airports and provides information on the current ground-level
+    weather, the altimeter setting and the runway in use.
   </description>
-  <audio-dir>Aircraft/c170/tutorial/radio</audio-dir>
+  <audio-dir>Aircraft/c170/Tutorials/radio</audio-dir>
   <timeofday>morning</timeofday>
   <presets>
     <airport-id>KLVK</airport-id>
@@ -61,14 +61,14 @@ weather, the altimeter setting and the runway in use.
 
   <step>
     <message>In this lesson, you'll learn how to tune the radio to the Livermore ATIS.
-      The radio is in the middle of the center console.</message>
+    The radio is in the middle of the center console.</message>
     <wait>10</wait>
   </step>
 
   <step>
     <message>There are 4 radios on this aircraft - two for communication (COMM1, COMM2) and two for navigation (NAV1, NAV2).
-      Each radio has an active frequency and a standby frequency.
-      We tune the radio by changing the standby frequency, and then swapping the active and standby. </message>
+    Each radio has an active frequency and a standby frequency.
+    We tune the radio by changing the standby frequency, and then swapping the active and standby. </message>
     <wait>10</wait>
   </step>
   <step>
@@ -185,12 +185,12 @@ weather, the altimeter setting and the runway in use.
 
   <step>
     <message>Listen to the ATIS message. If you cannot hear it, look at the Sound Configuration dialog on the File menu.
-      It will tell you the current weather conditions, the runway in use, and the altimeter setting.</message>
+    It will tell you the current weather conditions, the runway in use, and the altimeter setting.</message>
   </step>
 
   <step>
     <message>Once you've heard it, you can switch it off by swapping the frequency back to standby, or toggling off the audio panel.
-      Do that now.</message>
+    Do that now.</message>
     <view>
       <field-of-view>14.0</field-of-view>
       <heading-offset-deg>336</heading-offset-deg>
@@ -226,8 +226,8 @@ weather, the altimeter setting and the runway in use.
 
   <end>
     <message>Great job. COMM2 is located immediately below COMM1 in the radio stack, and is tuned in the same way.
-      The NAV radios work in exactly the same way, except they use a different frequency
-      range, and their output goes to the navigational instruments.</message>
+    The NAV radios work in exactly the same way, except they use a different frequency
+    range, and their output goes to the navigational instruments.</message>
   </end>
 
 </PropertyList>

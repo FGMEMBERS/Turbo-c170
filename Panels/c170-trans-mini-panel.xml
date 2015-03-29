@@ -34,120 +34,120 @@ override those by providing <w>Aircraft</w> and <h>..</h> properties with the
 
 <PropertyList>
 
- <name>Generic mini panel</name>
- <background>Aircraft/Generic/Panels/Textures/panel-trans-mini-bg.rgb</background>
- <w>1024</w>
- <h>154</h>
- <y-offset>0</y-offset>
- <view-height>768</view-height>
+  <name>Generic mini panel</name>
+  <background>Aircraft/Generic/Panels/Textures/panel-trans-mini-bg.rgb</background>
+  <w>1024</w>
+  <h>154</h>
+  <y-offset>0</y-offset>
+  <view-height>768</view-height>
 
- <instruments>
+  <instruments>
 
-<!-- engine controls cluster --> 
- 
-  <instrument include="Aircraft/Instruments/rpm.xml">
-   <name>RPM Gauge</name>
-   <x>885</x>
-   <y>70</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
+    <!-- engine controls cluster --> 
+    
+    <instrument include="Aircraft/Instruments/rpm.xml">
+      <name>RPM Gauge</name>
+      <x>885</x>
+      <y>70</y>
+      <w>120</w>
+      <h>120</h>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/mixture-knob.xml">
-   <name>Fuel Mixture Knob</name>
-   <x>980</x>
-   <y>115</y>
-   <w>45</w>
-   <h>55</h>
-  </instrument>
-  
-<!--  end engine controls cluster -->
-  
-<!-- controls visual feedback cluster --> 
+    <instrument include="Aircraft/Instruments/mixture-knob.xml">
+      <name>Fuel Mixture Knob</name>
+      <x>980</x>
+      <y>115</y>
+      <w>45</w>
+      <h>55</h>
+    </instrument>
+    
+    <!--  end engine controls cluster -->
+    
+    <!-- controls visual feedback cluster --> 
 
-  <instrument include="Aircraft/Instruments/flap.xml">
-   <name>Flaps Control</name>
-   <x>980</x>
-   <y>55</y>
-   <w>40</w>
-   <h>70</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/flap.xml">
+      <name>Flaps Control</name>
+      <x>980</x>
+      <y>55</y>
+      <w>40</w>
+      <h>70</h>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/brakes.xml">
-   <name>Brake Indicator Light</name>
-   <x>410</x>
-   <y>120</y>
-  </instrument>
+    <instrument include="Aircraft/Instruments/brakes.xml">
+      <name>Brake Indicator Light</name>
+      <x>410</x>
+      <y>120</y>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/controls.xml">
-   <name>Control Position Indicators</name>
-   <x>410</x>
-   <y>60</y>
-   <w>90</w>
-   <h>90</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/controls.xml">
+      <name>Control Position Indicators</name>
+      <x>410</x>
+      <y>60</y>
+      <w>90</w>
+      <h>90</h>
+    </instrument>
 
-<!-- end controls visual feedback cluster -->
+    <!-- end controls visual feedback cluster -->
 
-<!-- sacred six -->
+    <!-- sacred six -->
 
-  <instrument include="Aircraft/Instruments/asi-160-knot.xml">
-   <name>Airspeed Indicator</name>
-   <x>65</x>
-   <y>70</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/asi-160-knot.xml">
+      <name>Airspeed Indicator</name>
+      <x>65</x>
+      <y>70</y>
+      <w>120</w>
+      <h>120</h>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/attitude-indicator.xml">
-   <name>Attitude Gyro</name>
-   <x>305</x>
-   <y>70</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/attitude-indicator.xml">
+      <name>Attitude Gyro</name>
+      <x>305</x>
+      <y>70</y>
+      <w>120</w>
+      <h>120</h>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/altimeter.xml">
-   <name>Altimeter</name>
-   <x>638</x>
-   <y>70</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/altimeter.xml">
+      <name>Altimeter</name>
+      <x>638</x>
+      <y>70</y>
+      <w>120</w>
+      <h>120</h>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/turn.xml">
-   <name>Turn Coordinator</name>
-   <x>185</x>
-   <y>70</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/turn.xml">
+      <name>Turn Coordinator</name>
+      <x>185</x>
+      <y>70</y>
+      <w>120</w>
+      <h>120</h>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/gyro.xml">
-   <name>Directional Gyro</name>
-   <x>515</x>
-   <y>70</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/gyro.xml">
+      <name>Directional Gyro</name>
+      <x>515</x>
+      <y>70</y>
+      <w>120</w>
+      <h>120</h>
+    </instrument>
 
-  <instrument include="Aircraft/Instruments/vertical.xml">
-   <name>Vertical Velocity Indicator</name>
-   <x>761</x>
-   <y>70</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
+    <instrument include="Aircraft/Instruments/vertical.xml">
+      <name>Vertical Velocity Indicator</name>
+      <x>761</x>
+      <y>70</y>
+      <w>120</w>
+      <h>120</h>
+    </instrument>
 
-<!-- end sacred six -->
+    <!-- end sacred six -->
 
 
-  <instrument include="Aircraft/Instruments/magcompass.xml">
-   <name>Magnetic Compass</name>
-   <x>768</x>
-   <y>170</y>
-  </instrument>
- </instruments>
+    <instrument include="Aircraft/Instruments/magcompass.xml">
+      <name>Magnetic Compass</name>
+      <x>768</x>
+      <y>170</y>
+    </instrument>
+  </instruments>
 
 </PropertyList>
 

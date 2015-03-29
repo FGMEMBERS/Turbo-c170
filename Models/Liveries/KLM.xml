@@ -3,32 +3,32 @@
 <PropertyList>
   <sim>
     <model>
-     
+      
       
       
       <livery>
         <name type="string">KLM</name>
-	 <index type="int">6</index>
+	<index type="int">6</index>
 	<texture>Liveries/fuselage.KLM.png</texture>
-	      </livery>
+      </livery>
       
-       <liverytail>
-	     <name type="string">KLM</name>
-	     <index type="int">6</index>
-	    <texture>Liveries/tail.KLM.png</texture>
-	    	    </liverytail>
-	    
-	 <liverywing>
-	    <name type="string">KLM</name>
-	     <index type="int">6</index>
-	    <texture>Liveries/wing.KLM.png</texture>
-	    	    </liverywing>
-	    
-	    <c170>
-	     <immat>false</immat>
-      <fairing1>false</fairing1>
-      <fairing2>false</fairing2>
-      <fairing3>false</fairing3>
+      <liverytail>
+	<name type="string">KLM</name>
+	<index type="int">6</index>
+	<texture>Liveries/tail.KLM.png</texture>
+      </liverytail>
+      
+      <liverywing>
+	<name type="string">KLM</name>
+	<index type="int">6</index>
+	<texture>Liveries/wing.KLM.png</texture>
+      </liverywing>
+      
+      <c170>
+	<immat>false</immat>
+	<fairing1>false</fairing1>
+	<fairing2>false</fairing2>
+	<fairing3>false</fairing3>
       </c170>
       
     </model>

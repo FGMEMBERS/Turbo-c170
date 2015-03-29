@@ -3,11 +3,11 @@
   <description>
     The Altimeter on an aircraft works using air pressure. This varies due to weather conditions, so the altimeter must be set regularly to a known value.
 
-Having the correct altimeter setting is important. As well as helping pilots to avoid any high terrain, it means that aircraft can be separated by altitude and not hit each other. This is particular important in busy airspace.
+    Having the correct altimeter setting is important. As well as helping pilots to avoid any high terrain, it means that aircraft can be separated by altitude and not hit each other. This is particular important in busy airspace.
 
-The source of this altimeter setting varies. At high altitudes, a standard pressure is used. At lower levels, and area setting is used, and around airports, the current airport setting is used.
+    The source of this altimeter setting varies. At high altitudes, a standard pressure is used. At lower levels, and area setting is used, and around airports, the current airport setting is used.
 
-This tutorial will teach you how to set the altimeter based on the ATIS (Automatic Terminal Information Service) for Livermore Municipal airport.
+    This tutorial will teach you how to set the altimeter based on the ATIS (Automatic Terminal Information Service) for Livermore Municipal airport.
   </description>
   <audio-dir>Aircraft/c170/Tutorials/altimeter</audio-dir>
   <timeofday>morning</timeofday>
@@ -66,7 +66,7 @@ This tutorial will teach you how to set the altimeter based on the ATIS (Automat
 
   <step>
     <message>In this lesson, you'll learn how to set the altimeter to the Livermore ATIS. I've already
-      set the radio to the correct frequency - 119.65</message>
+    set the radio to the correct frequency - 119.65</message>
     <wait>10</wait>
   </step>
 
@@ -81,8 +81,8 @@ This tutorial will teach you how to set the altimeter based on the ATIS (Automat
 
   <step>
     <message>The ATIS message said the altimeter setting was 30.13.
-      We can set this on the altimeter by using the small insert window on the right side.
-      Alternatively we can adjust the altimeter so that it matches the altitude of Livermore - 380ft.
+    We can set this on the altimeter by using the small insert window on the right side.
+    Alternatively we can adjust the altimeter so that it matches the altitude of Livermore - 380ft.
     </message>
     <wait>10</wait>
     <view>
@@ -98,7 +98,7 @@ This tutorial will teach you how to set the altimeter based on the ATIS (Automat
 
   <step>
     <message>To adjust the altimeter directly, use the knob on the bottom left. Click on the right
-      side to increase the altitude, and left to decrease. Alternatively, use your mouse scroll wheel.
+    side to increase the altitude, and left to decrease. Alternatively, use your mouse scroll wheel.
     </message>
     <wait>10</wait>
     <view>
@@ -178,7 +178,7 @@ This tutorial will teach you how to set the altimeter based on the ATIS (Automat
   </step>
   <end>
     <message>Tutorial complete.  If you set the pressure setting directly,
-      you can double-check you've set the correct value by checking the current altitude.</message>
+    you can double-check you've set the correct value by checking the current altitude.</message>
   </end>
 
 </PropertyList>

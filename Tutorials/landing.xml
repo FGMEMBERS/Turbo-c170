@@ -2,13 +2,13 @@
   <name>Straight-in Landing</name>
   <description>Landings are not optional...
 
-Land the aircraft from an altitude of 1000ft on runway 30 at KHAF on a calm morning.
+  Land the aircraft from an altitude of 1000ft on runway 30 at KHAF on a calm morning.
 
-Unlike normal flight, when landing you use power alone to control descent rate. The runway should stay in the same position throughout the descent - about a third of the distance above the glare-shield.
+  Unlike normal flight, when landing you use power alone to control descent rate. The runway should stay in the same position throughout the descent - about a third of the distance above the glare-shield.
 
-KHAF has a VASI to the left of runway 30, a series of lights designed to help you judge your approach. Simply put, the VASI will display red lights if you are descending too fast (indicating that you need to increase power), and white lights if you are too high (indicating that you need to decrease power). If you are descending at the right angle, you will see 3 red lights and 3 white.
+  KHAF has a VASI to the left of runway 30, a series of lights designed to help you judge your approach. Simply put, the VASI will display red lights if you are descending too fast (indicating that you need to increase power), and white lights if you are too high (indicating that you need to decrease power). If you are descending at the right angle, you will see 3 red lights and 3 white.
 
-You start the tutorial cruising at around 1000ft and 90kts. To begin your descent, you will need to reduce power and drop one notch flaps. You are aiming to approach at 80kts and 300fpm. As you get closer, you will need to reduce power further and drop more flaps, aiming to touch down "on the numbers" at 65kts.
+  You start the tutorial cruising at around 1000ft and 90kts. To begin your descent, you will need to reduce power and drop one notch flaps. You are aiming to approach at 80kts and 300fpm. As you get closer, you will need to reduce power further and drop more flaps, aiming to touch down "on the numbers" at 65kts.
   </description>
   <timeofday>afternoon</timeofday>
   <presets>
@@ -18,7 +18,7 @@ You start the tutorial cruising at around 1000ft and 90kts. To begin your descen
     <altitude-ft>1000</altitude-ft>
     <latitude-deg>-9999</latitude-deg>
     <longitude-deg>-9999</longitude-deg>
-<!--    <heading-deg>300.0</heading-deg> -->
+    <!--    <heading-deg>300.0</heading-deg> -->
     <airspeed-kt>90.0</airspeed-kt>
     <glideslope-deg>3</glideslope-deg>
     <offset-azimuth-deg>0</offset-azimuth-deg>
@@ -57,8 +57,8 @@ You start the tutorial cruising at around 1000ft and 90kts. To begin your descen
 
   <step>
     <message>The runway is straight ahead. Reduce throttle to 50% and apply one degree of flaps.
-      Stay in line with the runway about a hands-width above the glare-shield.
-      You are aiming to descend at around 500 feet per minute and 80 knots.
+    Stay in line with the runway about a hands-width above the glare-shield.
+    You are aiming to descend at around 500 feet per minute and 80 knots.
     </message>
     <set>
       <property>/controls/flight/elevator-trim</property>
@@ -107,8 +107,8 @@ You start the tutorial cruising at around 1000ft and 90kts. To begin your descen
       <value>false</value>
     </set>
     <message>Let down the second step of flaps and use the VASI to check your descent rate.
-      White - too high. Red - too low, Red and white - just right.
-      Use throttle to control your descent rate rather than attitude.
+    White - too high. Red - too low, Red and white - just right.
+    Use throttle to control your descent rate rather than attitude.
     </message>
     <error>
       <message>Set your second set of flaps by pressing ]</message>
@@ -131,7 +131,7 @@ You start the tutorial cruising at around 1000ft and 90kts. To begin your descen
 
   <step>
     <message>Let down your final set of flaps and continue to follow the VASI glideslope.
-      Stay lined up with the middle of the runway.
+    Stay lined up with the middle of the runway.
     </message>
     <error>
       <message>Set your final set of flaps by pressing ]</message>
@@ -155,7 +155,7 @@ You start the tutorial cruising at around 1000ft and 90kts. To begin your descen
 
   <step>
     <message>Reduce power to idle. When you are about 10 feet above the ground,
-      smoothly bring the nose up so it is level with the horizon.
+    smoothly bring the nose up so it is level with the horizon.
     </message>
     <exit>
       <condition>
@@ -181,7 +181,7 @@ You start the tutorial cruising at around 1000ft and 90kts. To begin your descen
 
   <step>
     <message>Lower the nose wheel, continue to track down the runway and gently brake to a stop. Use
-      the mouse with the left button held down to steer.</message>
+    the mouse with the left button held down to steer.</message>
     <exit>
       <condition>
         <less-than>

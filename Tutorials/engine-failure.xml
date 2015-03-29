@@ -1,15 +1,15 @@
 <PropertyList>
   <name>Engine Failure</name>
   <description>Engine failure is very rare in flight simulators, but a risk in real life.
-    
-    
-The tutorial starts with you cruising at 3500ft over the hills of San Francisco. A total engine failure will occur, with no possibility of restart - black smoke, chunks of metal pushed out of the cowling.
-    
-Glide the aircraft to the nearest airport and make a successful emergency landing. You must manage your altitude and fly a normal pattern from "abeam the numbers". Don't deploy flaps until you have the runway "made".
-    
-The Cessna 172 glides at a ratio of 10:1 at a best glide speed of 90kts IAS. The glide ratio assumes no flaps and a "windmilling" propeller. If you fly any faster or slower, or have flaps deployed, the glide rate will be worse.
-    
-Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glide distance. In real life, you would opt for the larger of the two airports, but for an extra challenge, try to land at KHAF.
+  
+  
+  The tutorial starts with you cruising at 3500ft over the hills of San Francisco. A total engine failure will occur, with no possibility of restart - black smoke, chunks of metal pushed out of the cowling.
+  
+  Glide the aircraft to the nearest airport and make a successful emergency landing. You must manage your altitude and fly a normal pattern from "abeam the numbers". Don't deploy flaps until you have the runway "made".
+  
+  The Cessna 172 glides at a ratio of 10:1 at a best glide speed of 90kts IAS. The glide ratio assumes no flaps and a "windmilling" propeller. If you fly any faster or slower, or have flaps deployed, the glide rate will be worse.
+  
+  Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glide distance. In real life, you would opt for the larger of the two airports, but for an extra challenge, try to land at KHAF.
   </description>
   <timeofday>dusk</timeofday>
   <presets>
@@ -111,7 +111,7 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
     </error>
     <error>
       <message>Engine failure is currently simulated by switching off the magnetos.
-        Please switch them off again to continue the tutorial.</message>
+      Please switch them off again to continue the tutorial.</message>
       <condition>
         <greater-than>
           <property>/controls/engines/engine/magnetos</property>
@@ -123,7 +123,7 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
   
   <step>
     <message>Start maneuvering towards your chosen emergency landing spot,
-      keeping your speed at 90 knots IAS.</message>
+    keeping your speed at 90 knots IAS.</message>
     <set>
       <property>/engines/engine/running</property>
       <value>false</value>
@@ -148,7 +148,7 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
     </error>
     <error>
       <message>Engine failure is currently simulated by switching off the magnetos.
-        Please switch them off again to continue the tutorial.</message>
+      Please switch them off again to continue the tutorial.</message>
       <condition>
         <greater-than>
           <property>/controls/engines/engine/magnetos</property>
@@ -160,7 +160,7 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
   
   <step>
     <message>At this point we would radio an emergency/mayday.
-      Remember - Aviate, Navigate, Communicate - in that order.</message>
+    Remember - Aviate, Navigate, Communicate - in that order.</message>
     <set>
       <property>/engines/engine/running</property>
       <value>false</value>
@@ -185,7 +185,7 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
     </error>
     <error>
       <message>Engine failure is currently simulated by switching off the magnetos.
-        Please switch them off again to continue the tutorial.</message>
+      Please switch them off again to continue the tutorial.</message>
       <condition>
         <greater-than>
           <property>/controls/engines/engine/magnetos</property>
@@ -197,10 +197,10 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
   
   <step>
     <message>Continue flying towards your emergency landing spot.
-      If we had the spare capacity, we might attempt to restart the engine at this point.</message>
+    If we had the spare capacity, we might attempt to restart the engine at this point.</message>
     <error>
       <message>Engine failure is currently simulated by switching off the magnetos.
-        Please switch them off again to continue the tutorial.</message>
+      Please switch them off again to continue the tutorial.</message>
       <condition>
         <greater-than>
           <property>/controls/engines/engine/magnetos</property>
@@ -214,7 +214,7 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
     <message>Stay a 90 knots for maximum glide. Only use flaps once the runway is "made".</message>
     <error>
       <message>Engine failure is currently simulated by switching off the magnetos.
-        Please switch them off again to continue the tutorial.</message>
+      Please switch them off again to continue the tutorial.</message>
       <condition>
         <greater-than>
           <property>/controls/engines/engine/magnetos</property>
@@ -234,6 +234,6 @@ Both KSFO (San Francisco International) and KHAF (Half Moon Bay) are within glid
   
   <end>
     <message>Assuming the aircraft is upright and you landed on a runway,
-      you walked away from a total engine failure - well done!</message>
+    you walked away from a total engine failure - well done!</message>
   </end>
 </PropertyList>

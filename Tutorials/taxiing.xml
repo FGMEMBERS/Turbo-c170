@@ -3,9 +3,9 @@
   <description>
     This tutorial covers moving the aircraft around on the ground, from the parking position to the run-up area.
 
-For more information on taxiing, see Section 2-9 of the FAA Airplane Flying Handbook available at http://www.faa.gov/library/manuals/aircraft/airplane_handbook/.
+    For more information on taxiing, see Section 2-9 of the FAA Airplane Flying Handbook available at http://www.faa.gov/library/manuals/aircraft/airplane_handbook/.
   </description>
-  <audio-dir>Aircraft/c170/tutorial/startup</audio-dir>
+  <audio-dir>Aircraft/c170/Tutorials/startup</audio-dir>
   <timeofday>morning</timeofday>
   <presets>
     <airport-id>KLVK</airport-id>
@@ -91,26 +91,26 @@ For more information on taxiing, see Section 2-9 of the FAA Airplane Flying Hand
 
   <step>
     <message>In this lesson we'll taxi the aircraft from its parking position infront of the FBO,
-       along taxiways Juliet and Alpha to the run-up area near runway 07L.</message>
+    along taxiways Juliet and Alpha to the run-up area near runway 07L.</message>
     <nasal>
       <script>
 
-      # Script to simulate holding down the starter button until the engine starts
-      var starter = func() {
+	# Script to simulate holding down the starter button until the engine starts
+	var starter = func() {
         setprop("/controls/engines/engine/starter", 1);
         if (! getprop("/engines/engine/running")) {
-          settimer(starter, 0);
+        settimer(starter, 0);
         }
-      };
+	};
 
-      # The FDM resets the starter property on each FDM cycle.  By effectively starting
-      # a number of threads to continually keep setting the starter to true, we can
-      # get around this and give the engine the opportunity to catch.
-      starter();
-      starter();
-      starter();
-      starter();
-      starter();
+	# The FDM resets the starter property on each FDM cycle.  By effectively starting
+	# a number of threads to continually keep setting the starter to true, we can
+	# get around this and give the engine the opportunity to catch.
+	starter();
+	starter();
+	starter();
+	starter();
+	starter();
       </script>
     </nasal>
   </step>
@@ -121,7 +121,7 @@ For more information on taxiing, see Section 2-9 of the FAA Airplane Flying Hand
       <value>false</value>
     </set>
     <message>I've already started the engine. Press Shift-B to release the parking brake. Throttle up to about
-      20% to move forward slightly, then hold b to check that the normal brakes work.</message>
+    20% to move forward slightly, then hold b to check that the normal brakes work.</message>
     <error>
       <message>The parking brake is still on. Release it by pressing Shift-B.</message>
       <condition>
@@ -187,8 +187,8 @@ For more information on taxiing, see Section 2-9 of the FAA Airplane Flying Hand
 
   <step>
     <message>Keep applying the brakes. You can steer the aircraft on the ground by either using 0/Enter on the
-      numeric keypad, or using the mouse in yoke mode (+) with the left mouse button held down. If you need to slow
-      down, just press b to apply the brakes.</message>
+    numeric keypad, or using the mouse in yoke mode (+) with the left mouse button held down. If you need to slow
+    down, just press b to apply the brakes.</message>
     <wait>10</wait>
     <error>
       <message>Keep the brakes on until I tell you to start taxiing.</message>

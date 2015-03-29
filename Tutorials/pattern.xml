@@ -1,22 +1,22 @@
 <PropertyList>
   <name>Flying the Pattern</name>
   <description>
-The traffic pattern is used as a method to stop aircraft crashing into each other when near an airport.
+    The traffic pattern is used as a method to stop aircraft crashing into each other when near an airport.
     
-The pattern is a rectangular flight path with the runway forming one of the long sides.
+    The pattern is a rectangular flight path with the runway forming one of the long sides.
     
-It consists of the following sections:
-- Upwind.    Once we've taken off, we flying straight ahead on the runway heading to 500ft.
-- Crosswind. At 500ft, we turn left 90 degrees and continue climbing until we get to 1000ft.
-- Downwind.  When we reach 1000ft, we turn left again so we are parallel to the runway, reduce power and fly at 100kts. When we are "abeam the numbers" (opposite the number on the runway we intend to land on), we reduce power to 50%, drop one notch of flat and descend 100ft at 90kts.
-- Base.      We now make another left-hand turn, add another notch of flaps, and let speed continue to dissipate.
-- Final.     At the correct moment (based on visual queues),we make a final left turn to line up with the runway. We drop our final lot of flaps, descend and land.
+    It consists of the following sections:
+    - Upwind.    Once we've taken off, we flying straight ahead on the runway heading to 500ft.
+    - Crosswind. At 500ft, we turn left 90 degrees and continue climbing until we get to 1000ft.
+    - Downwind.  When we reach 1000ft, we turn left again so we are parallel to the runway, reduce power and fly at 100kts. When we are "abeam the numbers" (opposite the number on the runway we intend to land on), we reduce power to 50%, drop one notch of flat and descend 100ft at 90kts.
+    - Base.      We now make another left-hand turn, add another notch of flaps, and let speed continue to dissipate.
+    - Final.     At the correct moment (based on visual queues),we make a final left turn to line up with the runway. We drop our final lot of flaps, descend and land.
     
-As before, we'll be flying at KHAF, on runway 12, on a clear day.
+    As before, we'll be flying at KHAF, on runway 12, on a clear day.
     
-Runway 12 does not have a VASI. Instead you will need to judge whether you are too low or too high by the view of the runway. If the runway is going away from you, you will land short. If the runway is coming towards you, you will over-shoot. Remember, you should aim to have the runway about a third of the way above the glare-shield, and adjust your rate of descent using power.
+    Runway 12 does not have a VASI. Instead you will need to judge whether you are too low or too high by the view of the runway. If the runway is going away from you, you will land short. If the runway is coming towards you, you will over-shoot. Remember, you should aim to have the runway about a third of the way above the glare-shield, and adjust your rate of descent using power.
   </description>
-  <audio-dir>Aircraft/c170/tutorial</audio-dir>
+  <audio-dir>Aircraft/c170/Tutorials</audio-dir>
   <timeofday>morning</timeofday>
   <presets>
     <airport-id>KHAF</airport-id>
@@ -333,7 +333,7 @@ Runway 12 does not have a VASI. Instead you will need to judge whether you are t
   
   <step>
     <message>Turn left to base (heading 210), and set flaps to 20.
-      Continue to descend at around 500 feet per minute.</message>
+    Continue to descend at around 500 feet per minute.</message>
     <exit>
       <condition>
         <less-than>
@@ -380,7 +380,7 @@ Runway 12 does not have a VASI. Instead you will need to judge whether you are t
   
   <step>
     <message>Reduce power to idle. When you are about 10 feet above the ground,
-      smoothly bring the nose up so it is just above the horizon.</message>
+    smoothly bring the nose up so it is just above the horizon.</message>
     <exit>
       <condition>
         <less-than>
@@ -393,7 +393,7 @@ Runway 12 does not have a VASI. Instead you will need to judge whether you are t
   
   <step>
     <message>Keep tracking straight down the runway using the rudder
-      and let the aircraft land on the main gear.</message>
+    and let the aircraft land on the main gear.</message>
     <exit>
       <condition>
         <less-than>
@@ -418,8 +418,8 @@ Runway 12 does not have a VASI. Instead you will need to judge whether you are t
   
   <end>
     <message>Congratulations on successfully following the pattern.
-      If you want to practice more landings, you can take off again immediately.
-      Don't forget to lift your flaps though! This is known as a Touch and Go.
+    If you want to practice more landings, you can take off again immediately.
+    Don't forget to lift your flaps though! This is known as a Touch and Go.
     </message>
   </end>
 </PropertyList>

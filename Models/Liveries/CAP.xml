@@ -3,32 +3,32 @@
 <PropertyList>
   <sim>
     <model>
-     
+      
       
       
       <livery>
         <name type="string">CAP</name>
-	 <index type="int">9</index>
+	<index type="int">9</index>
 	<texture>Liveries/fuselage.CAP.png</texture>
-	      </livery>
+      </livery>
       
-       <liverytail>
-	     <name type="string">CAP</name>
-	     <index type="int">9</index>
-	    <texture>Liveries/tail.CAP.png</texture>
-	    	    </liverytail>
-	    
-	 <liverywing>
-	    <name type="string">CAP</name>
-	     <index type="int">9</index>
-	    <texture>Liveries/wing.CAP.png</texture>
-	    	    </liverywing>
-	    
-	    <c170>
-	     <immat>false</immat>
-      <fairing1>false</fairing1>
-      <fairing2>false</fairing2>
-      <fairing3>false</fairing3>
+      <liverytail>
+	<name type="string">CAP</name>
+	<index type="int">9</index>
+	<texture>Liveries/tail.CAP.png</texture>
+      </liverytail>
+      
+      <liverywing>
+	<name type="string">CAP</name>
+	<index type="int">9</index>
+	<texture>Liveries/wing.CAP.png</texture>
+      </liverywing>
+      
+      <c170>
+	<immat>false</immat>
+	<fairing1>false</fairing1>
+	<fairing2>false</fairing2>
+	<fairing3>false</fairing3>
       </c170>
       
     </model>

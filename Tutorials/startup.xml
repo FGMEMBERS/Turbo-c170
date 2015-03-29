@@ -1,9 +1,9 @@
 <PropertyList>
   <name>Start Up</name>
   <description>
-Before you go flying, you'll need to learn how to start the engines.
+    Before you go flying, you'll need to learn how to start the engines.
 
-This tutorial will take you through the pre-startup checklist and starting the Cessna 172p.
+    This tutorial will take you through the pre-startup checklist and starting the Cessna 172p.
   </description>
   <audio-dir>Aircraft/c170/Tutorials/startup</audio-dir>
   <timeofday>morning</timeofday>
@@ -64,13 +64,13 @@ This tutorial will take you through the pre-startup checklist and starting the C
 
   <step>
     <message>Before we start up, we need to brief what we'll do in case of an engine fire on startup. As
-      this isn't our aircraft, and we're fully insured, we'll simply open the door and run away.</message>
+    this isn't our aircraft, and we're fully insured, we'll simply open the door and run away.</message>
     <wait>10</wait>
   </step>
 
   <step>
     <message>Next, we check our seatbelts, and seat adjustments. Cessnas can get worn seat rails that
-      sometimes cause the seat to slip backwards, often just as you take off, so make sure it is secure.</message>
+    sometimes cause the seat to slip backwards, often just as you take off, so make sure it is secure.</message>
     <wait>10</wait>
   </step>
 
@@ -89,7 +89,7 @@ This tutorial will take you through the pre-startup checklist and starting the C
 
   <step>
     <message>Open the throttle slightly. Use your joystick throttle control,
-      or PgUp to increase throttle to about 10%.</message>
+    or PgUp to increase throttle to about 10%.</message>
     <view>
       <heading-offset-deg>347.2</heading-offset-deg>
       <pitch-offset-deg>-21.8</pitch-offset-deg>
@@ -171,7 +171,7 @@ This tutorial will take you through the pre-startup checklist and starting the C
 
   <step>
     <message>We need to switch on the magnetos.
-      Click the middle hotspot three times, or use your mouse scroll wheel, so the key is set to BOTH.</message>
+    Click the middle hotspot three times, or use your mouse scroll wheel, so the key is set to BOTH.</message>
     <view>
       <heading-offset-deg>12.2</heading-offset-deg>
       <pitch-offset-deg>-35.2</pitch-offset-deg>
@@ -197,7 +197,7 @@ This tutorial will take you through the pre-startup checklist and starting the C
     </set>
     <error>
       <message>Click the middle hotspot three times, so both magnetos are on and the key
-        is set to BOTH.</message>
+      is set to BOTH.</message>
       <condition>
         <less-than>
           <property>/controls/engines/engine/magnetos</property>
