@@ -11,7 +11,7 @@
 <instruments>
 <!-- radio stack -->
 
-  <instrument include="../../../Instruments/dme.xml">
+  <instrument include="Aircraft/Instruments/dme.xml">
    <name>DME Display</name>
    <x>120</x>
    <y>470</y>
@@ -19,7 +19,7 @@
    <h>100</h> -->
   </instrument>
   
-  <instrument include="../../../Instruments/markerbeacon.xml">
+  <instrument include="Aircraft/Instruments/markerbeacon.xml">
    <name>Marker Beacon Indicators</name>
    <x>64</x>
    <y>1000</y>
@@ -27,7 +27,7 @@
    <h>50</h>
   </instrument>
   
-  <instrument include="../../../Instruments/adf-radio.xml">
+  <instrument include="Aircraft/Instruments/adf-radio.xml">
    <name>ADF Radio</name>
    <x>256</x>
    <y>900</y>
@@ -36,7 +36,7 @@
   </instrument>
   
       
-  <instrument include="../../../Instruments/navcom-kx155.xml">
+  <instrument include="Aircraft/Instruments/navcom-kx155.xml">
    <name>NavCom 1 Radio</name>
    <x>256</x>
    <y>750</y>
@@ -44,7 +44,7 @@
    <h>150</h>
   </instrument>
 
-  <instrument include="../../../Instruments/navcom-kx155.xml">
+  <instrument include="Aircraft/Instruments/navcom-kx155.xml">
    <name>NavCom 2 Radio</name>
    <params>
     <comm-freq-selected-prop>/instrumentation/comm[1]/frequencies/selected-mhz</comm-freq-selected-prop>
@@ -61,7 +61,7 @@
    <h>150</h>
   </instrument>
 <!--
-  <instrument include="../../../Instruments/KAP140TwoAxisAlt.xml">
+  <instrument include="Aircraft/Instruments/KAP140TwoAxisAlt.xml">
    <name>KAP140 Autopilot</name>
    <x>256</x>
    <y>340</y>
