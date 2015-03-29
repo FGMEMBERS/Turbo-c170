@@ -7,7 +7,7 @@
  </model>
 
  <model>
-   <path>Aircraft/c172p/Models/c172p.xml</path>
+   <path>Aircraft/c170/Models/c172p.xml</path>
    <offsets>
      <x-m> 0.0 </x-m>
      <y-m> 0.0 </y-m>

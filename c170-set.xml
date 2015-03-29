@@ -96,11 +96,11 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
 
   <systems>
     <autopilot>
-      <path>Aircraft/c172p/Systems/KAP140.xml</path>
+      <path>Aircraft/c170/Systems/KAP140.xml</path>
     </autopilot>
     <property-rule n="100">
       <name>FiltersOnly</name>
-      <path>Aircraft/c172p/Systems/NAVandGSfilters.xml</path>
+      <path>Aircraft/c170/Systems/NAVandGSfilters.xml</path>
     </property-rule>
     <electrical>
       <!-- null electrical system path here so we can use a nasal based -->
@@ -110,7 +110,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
   </systems>
 
   <sound>
-   <path archive="y">Aircraft/c172p/c170-sound.xml</path>
+   <path archive="y">Aircraft/c170/c170-sound.xml</path>
   </sound>
 
   <help include="c170-help.xml"/>
@@ -149,7 +149,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
 
   <menubar include="Dialogs/c172p-menu.xml"/>
   <instrumentation n="0">
-    <path>Aircraft/c172p/Systems/instrumentation.xml</path>
+    <path>Aircraft/c170/Systems/instrumentation.xml</path>
   </instrumentation>
  </sim>
 
@@ -250,13 +250,13 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
  <nasal>
  
     <c170>
-      <file>Aircraft/c172p/Nasal/liveries.nas</file>
-      <file>Aircraft/c172p/Nasal/immat.nas</file>
-      <file>Aircraft/c172p/Nasal/doors.nas</file>
-      <file>Aircraft/c172p/Nasal/light.nas</file>
-      <file>Aircraft/c172p/Nasal/tanks.nas</file>
-      <file>Aircraft/c172p/Nasal/kma20.nas</file>
-      <file>Aircraft/c172p/Nasal/ki266.nas</file>
+      <file>Aircraft/c170/Nasal/liveries.nas</file>
+      <file>Aircraft/c170/Nasal/immat.nas</file>
+      <file>Aircraft/c170/Nasal/doors.nas</file>
+      <file>Aircraft/c170/Nasal/light.nas</file>
+      <file>Aircraft/c170/Nasal/tanks.nas</file>
+      <file>Aircraft/c170/Nasal/kma20.nas</file>
+      <file>Aircraft/c170/Nasal/ki266.nas</file>
       <script><![CDATA[
         ki266.new(0);
         aircraft.data.add( "engines/engine[0]/egt-bug-norm" );
@@ -264,7 +264,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
     </c170>
 
   <electrical>
-   <file>Aircraft/c172p/Nasal/c170-electrical.nas</file>
+   <file>Aircraft/c170/Nasal/c170-electrical.nas</file>
   </electrical>
   <kap140>
    <file>Aircraft/Generic/kap140.nas</file>
@@ -279,7 +279,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
    </script>
   </kap140>
   <kr87>
-    <file>Aircraft/c172p/Nasal/kr87.nas</file>
+    <file>Aircraft/c170/Nasal/kr87.nas</file>
   </kr87>
  </nasal>
  <payload>
