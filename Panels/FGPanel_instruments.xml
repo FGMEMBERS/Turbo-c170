@@ -36,7 +36,7 @@
 	<h>353</h>
 	<instruments>
 
-		<instrument include="/Aircraft/Instruments/fps.xml">
+		<instrument include="Aircraft/Instruments/fps.xml">
 			<name>frames per second</name>
 			<x>10</x>
 			<y>340</y>
@@ -52,7 +52,7 @@
 			<h>20</h>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/asi-c172s.xml">
+		<instrument include="Aircraft/Instruments/asi-c172s.xml">
 			<name>Airspeed Indicator</name>
 			<x alias="../../../params/col-2"/>
 			<y alias="../../../params/row-1"/>
@@ -60,7 +60,7 @@
 			<h alias="../../../params/size-1"/>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/ati-c172s.xml">
+		<instrument include="Aircraft/Instruments/ati-c172s.xml">
 			<name>Attitude Gyro</name>
 			<x alias="../../../params/col-3"/>
 			<y alias="../../../params/row-1"/>
@@ -68,7 +68,7 @@
 			<h alias="../../../params/size-1"/>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/alt-c172s.xml">
+		<instrument include="Aircraft/Instruments/alt-c172s.xml">
 			<name>Altimeter</name>
 			<x alias="../../../params/col-4"/>
 			<y alias="../../../params/row-1"/>
@@ -76,7 +76,7 @@
 			<h alias="../../../params/size-1"/>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/trn-c172s.xml">
+		<instrument include="Aircraft/Instruments/trn-c172s.xml">
 			<name>Turn Coordinator</name>
 			<x alias="../../../params/col-2"/>
 			<y alias="../../../params/row-2"/>
@@ -84,7 +84,7 @@
 			<h alias="../../../params/size-1"/>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/hdg-c172s.xml">
+		<instrument include="Aircraft/Instruments/hdg-c172s.xml">
 			<name>HDG</name>
 			<x alias="../../../params/col-3"/>
 			<y alias="../../../params/row-2"/>
@@ -92,7 +92,7 @@
 			<h alias="../../../params/size-1"/>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/vsi-c172s.xml">
+		<instrument include="Aircraft/Instruments/vsi-c172s.xml">
 			<name>Vertical Velocity Indicator</name>
 			<x alias="../../../params/col-4"/>
 			<y alias="../../../params/row-2"/>
@@ -101,7 +101,7 @@
 		</instrument>
 
 <!-- Column 1 -->
-		<instrument include="/Aircraft/Instruments/clock.xml">
+		<instrument include="Aircraft/Instruments/clock.xml">
 			<name>clock</name>
 			<x>45</x>
 			<y>248</y>
@@ -109,7 +109,7 @@
 			<h alias="../../../params/size-2"/>
 		</instrument>
 
-		<instrument include="/Aircraft/SenecaII/Panels/Vacuum.xml">
+		<instrument include="Aircraft/SenecaII/Panels/Vacuum.xml">
 			<name>Gyro Pressure Gauge</name>
 			<x>20</x>
 			<y>203</y>
@@ -125,7 +125,7 @@
 			<h>20</h>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/oil-c172p.xml">
+		<instrument include="Aircraft/Instruments/oil-c172p.xml">
 			<name>Oil</name>
 			<params>
 				<ot>engines/engine[0]/oil-temperature-degf</ot>
@@ -137,7 +137,7 @@
 			<h>20</h>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/battery-c172p.xml">
+		<instrument include="Aircraft/Instruments/battery-c172p.xml">
 			<name>VoltAmps</name>
 			<params>
 				<amps>/systems/electrical/amps</amps>
@@ -150,7 +150,7 @@
 		</instrument>
 
 <!-- Column 4 -->
-		<instrument include="/Aircraft/SenecaII/Panels/EGT.xml">
+		<instrument include="Aircraft/SenecaII/Panels/EGT.xml">
 			<name>EGT Gauge</name>
 			<params>
 				<value>engines/engine[0]/egt-degf</value>
@@ -162,7 +162,7 @@
 		</instrument>
 
 <!-- Column 5 -->
-		<instrument include="/Aircraft/Instruments/vor2-c172s.xml">
+		<instrument include="Aircraft/Instruments/vor2-c172s.xml">
 			<name>VOR 2 Gauge</name>
 			<params>
 				<nav-to-flag>/instrumentation/nav[0]/from-flag</nav-to-flag>
@@ -179,7 +179,7 @@
 			<h alias="../../../params/size-1"/>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/vor2-c172s.xml">
+		<instrument include="Aircraft/Instruments/vor2-c172s.xml">
 			<name>VOR 2 Gauge</name>
 			<params>
 				<nav-to-flag>/instrumentation/nav[1]/from-flag</nav-to-flag>
@@ -196,7 +196,7 @@
 			<h alias="../../../params/size-1"/>
 		</instrument>
 
-		<instrument include="/Aircraft/Instruments/adf-c172s.xml">
+		<instrument include="Aircraft/Instruments/adf-c172s.xml">
 			<name>ADF</name>
 			<params>
 				<adf-course-rotation-deg>/instrumentation/adf[0]/rotation-deg</adf-course-rotation-deg>
@@ -210,7 +210,7 @@
 
 <!-- Column 2- -->
 
-		<instrument include="/Aircraft/Instruments/rpm-c172s.xml">
+		<instrument include="Aircraft/Instruments/rpm-c172s.xml">
 			<name>RPM Gauge</name>
 			<params>
 				<source>/engines/engine[0]/rpm</source>
