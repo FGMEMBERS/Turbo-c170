@@ -110,14 +110,14 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
   </systems>
 
   <sound>
-   <path archive="y">Aircraft/c172p/c172-sound.xml</path>
+   <path archive="y">Aircraft/c172p/c170-sound.xml</path>
   </sound>
 
-  <help include="c172-help.xml"/>
+  <help include="c170-help.xml"/>
   
-  <checklists include="c172-checklists.xml"/>
+  <checklists include="c170-checklists.xml"/>
 
-  <tutorials include="Tutorials/c172-tutorials.xml"/>
+  <tutorials include="Tutorials/c170-tutorials.xml"/>
   
   <dimensions>
     <radius-m type="double">5</radius-m>
@@ -264,7 +264,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
     </c172p>
 
   <electrical>
-   <file>Aircraft/c172p/Nasal/c172-electrical.nas</file>
+   <file>Aircraft/c172p/Nasal/c170-electrical.nas</file>
   </electrical>
   <kap140>
    <file>Aircraft/Generic/kap140.nas</file>
