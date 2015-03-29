@@ -361,7 +361,7 @@
 
  <model>
    <name>fuel</name>
-   <path>Aircraft/c170/Instruments/c172FuelOilAmps/c172fuel.xml</path>
+   <path>Aircraft/c170/Instruments/c170FuelOilAmps/c170fuel.xml</path>
    <offsets>
      <x-m>-0.369</x-m>
      <y-m>-0.405</y-m>
@@ -371,7 +371,7 @@
 
  <model>
    <name>oil</name>
-   <path>Aircraft/c170/Instruments/c172FuelOilAmps/c172oil.xml</path>
+   <path>Aircraft/c170/Instruments/c170FuelOilAmps/c170oil.xml</path>
    <offsets>
      <x-m>-0.369</x-m>
      <y-m>-0.405</y-m>
