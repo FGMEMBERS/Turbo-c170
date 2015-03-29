@@ -4,7 +4,7 @@
 **********************************************************************
 instrumentation.xml
 
-c172p instrumentation configuration. This file selects the
+c170 instrumentation configuration. This file selects the
 instrumentation modules that should be available.
 
 You can have several instances of the same instrument type.

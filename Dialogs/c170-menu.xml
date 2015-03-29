@@ -17,7 +17,7 @@
         <name>immatriculation</name>
         <binding>
           <command>nasal</command>
-          <script>c172p.immat_dialog.toggle()</script>
+          <script>c170.immat_dialog.toggle()</script>
         </binding>
       </item>
       <item>

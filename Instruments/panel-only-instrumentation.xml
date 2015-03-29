@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <!--
-  instrumentation for $FG_ROOT/Aircraft/c172p-panel-only-set.xml
+  instrumentation for $FG_ROOT/Aircraft/c170-panel-only-set.xml
   needs kr-87
 -->
 <PropertyList>

@@ -125,7 +125,7 @@
    </volume>
   </rumble>
 
-<!-- the c172 doesn't have a retractable landing gear
+<!-- the c170 doesn't have a retractable landing gear
   <gear>
    <name>gear</name>
    <mode>in-transit</mode>

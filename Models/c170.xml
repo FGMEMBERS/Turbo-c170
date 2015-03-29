@@ -17,7 +17,7 @@
 
      var livery_update = aircraft.livery_update.new(
      "Aircraft/c170/Models/Liveries", 10,
-     func { print("c172p livery update") });
+     func { print("c170 livery update") });
    </load>
 
    <unload>
@@ -1297,7 +1297,7 @@
      <repeatable>false</repeatable>
      <binding>
         <command>nasal</command>
-        <script>c172p.rightDoor.toggle();</script>
+        <script>c170.rightDoor.toggle();</script>
      </binding>
    </action>
    
@@ -1320,7 +1320,7 @@
      <repeatable>false</repeatable>
      <binding>
        <command>nasal</command>
-       <script>c172p.leftDoor.toggle();</script>
+       <script>c170.leftDoor.toggle();</script>
      </binding>
    </action>
    
@@ -1342,7 +1342,7 @@
      <repeatable>false</repeatable>
      <binding>
        <command>nasal</command>
-       <script>c172p.baggageDoor.toggle();</script>
+       <script>c170.baggageDoor.toggle();</script>
      </binding>
    </action>
    
@@ -2678,7 +2678,7 @@
    <object-name>strobe1</object-name>
    <object-name>strobe2</object-name>
    <condition>
-     <property>/sim/model/c172p/lighting/strobes/state</property>
+     <property>/sim/model/c170/lighting/strobes/state</property>
    </condition>
  </animation>
 
@@ -2783,7 +2783,7 @@
    <type>select</type>
    <object-name>BeaconOffX</object-name>
    <condition>
-     <property>/sim/model/c172p/lighting/beacon-top/state</property>
+     <property>/sim/model/c170/lighting/beacon-top/state</property>
    </condition>
  </animation>
 
@@ -2846,7 +2846,7 @@
    <type>select</type>
    <object-name>fairing1</object-name>
    <condition>
-     <property>sim/model/c172p/fairing1</property>
+     <property>sim/model/c170/fairing1</property>
    </condition>
  </animation>
 
@@ -2854,7 +2854,7 @@
    <type>select</type>
    <object-name>fairing2</object-name>
    <condition>
-     <property>sim/model/c172p/fairing2</property>
+     <property>sim/model/c170/fairing2</property>
    </condition>
  </animation>
 
@@ -2862,7 +2862,7 @@
    <type>select</type>
    <object-name>fairing3</object-name>
    <condition>
-     <property>sim/model/c172p/fairing3</property>
+     <property>sim/model/c170/fairing3</property>
    </condition>
  </animation>
 

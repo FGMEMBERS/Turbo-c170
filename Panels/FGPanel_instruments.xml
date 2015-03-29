@@ -2,6 +2,7 @@
 <!--
     main c172p cockpit panel
     Thorsten Brehm, October 2011
+    now main c170 cockpit panel, March 2015 ==USA TOUR CONSORTIUM
 -->
 
 <PropertyList>
@@ -23,7 +24,7 @@
 		<callsign>D-GEAR</callsign>
 	</params>
 
-	<name>c172p IFR Panel</name>
+	<name>c170 IFR Panel</name>
 
  	<!-- works for 16:9 -->
 <!--

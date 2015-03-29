@@ -618,7 +618,7 @@ Legacy 2D instruments and actions for the 3D C172P cockpit.
     <min>0</min>
     <max>1.0</max>
     <wrap>false</wrap>
-   </binding>c172p-2d-panel.xml
+   </binding>c170-2d-panel.xml
   </action>
 
   <action>
@@ -653,7 +653,7 @@ Legacy 2D instruments and actions for the 3D C172P cockpit.
     <min>0</min>
     <max>1.0</max>
     <wrap>false</wrap>
-   </binding>c172p-2d-panel.xml
+   </binding>c170-2d-panel.xml
   </action>
 
   <action>
