@@ -35,7 +35,7 @@ override those by providing <w>Aircraft</w> and <h>..</h> properties with the
 <PropertyList>
 
   <name>Generic mini panel</name>
-  <background>Aircraft/Generic/Panels/Textures/panel-trans-mini-bg.rgb</background>
+  <background>Aircraft/Generic/Panels/Textures/panel-trans-mini-bg.png</background>
   <w>1024</w>
   <h>154</h>
   <y-offset>0</y-offset>

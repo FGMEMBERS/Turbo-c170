@@ -35,15 +35,15 @@ override those by providing <w>..</w> and <h>..</h> properties with the
 <PropertyList>
 
   <name>Generic VFR Panel</name>
-  <background>Aircraft/Generic/Panels/Textures/panel-bg.rgb</background>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-01.rgb</multibackground>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-02.rgb</multibackground>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-03.rgb</multibackground>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-04.rgb</multibackground>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-03.rgb</multibackground>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-04.rgb</multibackground>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-07.rgb</multibackground>
-  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-08.rgb</multibackground>
+  <background>Aircraft/Generic/Panels/Textures/panel-bg.png</background>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-01.png</multibackground>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-02.png</multibackground>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-03.png</multibackground>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-04.png</multibackground>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-03.png</multibackground>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-04.png</multibackground>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-07.png</multibackground>
+  <multibackground>Aircraft/Generic/Panels/Textures/generic-panel-08.png</multibackground>
   <w>1424</w>
   <h>488</h>
   <y-offset>0</y-offset>
