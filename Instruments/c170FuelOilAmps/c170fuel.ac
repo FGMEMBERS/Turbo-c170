@@ -7,7 +7,7 @@ OBJECT poly
 name "Face"
 data 8
 Mesh.005
-texture "fuel-oil.rgb"
+texture "fuel-oil.png"
 texrep 1 1
 crease 30.000000
 numvert 6

@@ -600,7 +600,7 @@ OBJECT poly
 name "Face"
 data 6
 Circle
-texture "RPM.rgb"
+texture "RPM.png"
 texrep 1 1
 crease 30.000000
 numvert 33

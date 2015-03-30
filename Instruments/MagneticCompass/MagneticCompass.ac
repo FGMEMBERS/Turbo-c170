@@ -85,7 +85,7 @@ OBJECT poly
 name "Ball_1"
 data 6
 Sphere
-texture "MagneticCompass.rgb"
+texture "MagneticCompass.png"
 texrep 1 1
 crease 30.000000
 numvert 994

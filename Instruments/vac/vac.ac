@@ -7,7 +7,7 @@ OBJECT poly
 name "Face"
 data 8
 Mesh.001
-texture "vac-face.rgb"
+texture "vac-face.png"
 texrep 1 1
 crease 45.000000
 numvert 4

@@ -602,7 +602,7 @@ OBJECT poly
 name "Face"
 data 10
 Circle.020
-texture "BatteryGauge.rgb"
+texture "BatteryGauge.png"
 texrep 1 1
 crease 30.000000
 numvert 33
