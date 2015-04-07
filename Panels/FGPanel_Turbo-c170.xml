@@ -7,9 +7,9 @@
     <![CDATA[
 	     Usage:
 	     * To display the panel:
-	     fgpanel --fg-root=... --panel=Aircraft/c170/Panels
+	     fgpanel --fg-root=... --panel=Aircraft/Turbo-c170/Panels
 	     # To send the data to the panel:
-	     fgfs --generic=socket,out,<hz>,<host>,34200,udp,Aircraft/c170/Panels/FGPanel_Protocol_c170
+	     fgfs --generic=socket,out,<hz>,<host>,34200,udp,Aircraft/Turbo-c170/Panels/FGPanel_Protocol_c170
     ]]>
   </comment>
 

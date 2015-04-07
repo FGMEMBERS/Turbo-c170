@@ -1,11 +1,11 @@
 # strobes ===========================================================
 var strobe_switch = props.globals.getNode("/systems/electrical/outputs/strobe", 1);
-aircraft.light.new("sim/model/c170/lighting/strobes", [0.015, 1.985], strobe_switch);
+aircraft.light.new("sim/model/Turbo-c170/lighting/strobes", [0.015, 1.985], strobe_switch);
 
 
 # beacons ===========================================================
 var beacon_switch = props.globals.getNode("/systems/electrical/outputs/beacon", 1);
-aircraft.light.new("sim/model/c170/lighting/beacon-top", [0.10, 0.90], beacon_switch);
+aircraft.light.new("sim/model/Turbo-c170/lighting/beacon-top", [0.10, 0.90], beacon_switch);
 
 
 # Control both panel and instrument light intensity with one property

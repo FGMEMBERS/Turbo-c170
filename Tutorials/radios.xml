@@ -8,7 +8,7 @@
     but the smallest airports and provides information on the current ground-level
     weather, the altimeter setting and the runway in use.
   </description>
-  <audio-dir>Aircraft/c170/Tutorials/radio</audio-dir>
+  <audio-dir>Aircraft/Turbo-c170/Tutorials/radio</audio-dir>
   <timeofday>morning</timeofday>
   <presets>
     <airport-id>KLVK</airport-id>

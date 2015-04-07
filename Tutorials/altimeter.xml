@@ -9,7 +9,7 @@
 
     This tutorial will teach you how to set the altimeter based on the ATIS (Automatic Terminal Information Service) for Livermore Municipal airport.
   </description>
-  <audio-dir>Aircraft/c170/Tutorials/altimeter</audio-dir>
+  <audio-dir>Aircraft/Turbo-c170/Tutorials/altimeter</audio-dir>
   <timeofday>morning</timeofday>
   <presets>
     <airport-id>KLVK</airport-id>

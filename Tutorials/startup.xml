@@ -5,7 +5,7 @@
 
     This tutorial will take you through the pre-startup checklist and starting the Cessna 172p.
   </description>
-  <audio-dir>Aircraft/c170/Tutorials/startup</audio-dir>
+  <audio-dir>Aircraft/Turbo-c170/Tutorials/startup</audio-dir>
   <timeofday>morning</timeofday>
 
   <presets>

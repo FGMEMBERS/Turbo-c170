@@ -386,7 +386,7 @@
     <object-name>ImatPanel5</object-name>
     <object-name>ImatPanel6</object-name>
     <condition>
-      <property>sim/model/c170/immat</property>
+      <property>sim/model/Turbo-c170/immat</property>
     </condition>
   </animation>
 

@@ -2678,7 +2678,7 @@
     <object-name>strobe1</object-name>
     <object-name>strobe2</object-name>
     <condition>
-      <property>/sim/model/c170/lighting/strobes/state</property>
+      <property>/sim/model/Turbo-c170/lighting/strobes/state</property>
     </condition>
   </animation>
 

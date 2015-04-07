@@ -5,7 +5,7 @@
     
     This tutorial will teach you how to take-off, and climb at 600 feet per minute. You will level off at 1000ft to complete the tutorial.
   </description>
-  <audio-dir>Aircraft/c170/Tutorials</audio-dir>
+  <audio-dir>Aircraft/Turbo-c170/Tutorials</audio-dir>
   <timeofday>morning</timeofday>
   <presets>
     <airport-id>KHAF</airport-id>
