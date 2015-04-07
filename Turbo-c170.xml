@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://jsbsim.sourceforge.net/JSBSim.xsl"?>
-<fdm_config name="c170" version="1.0" release="ALPHA"
+<fdm_config name="Turbo-c170" version="1.0" release="ALPHA"
 	    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
   <fileheader>
     <author> Unknown </author>
     <filecreationdate> 2002-01-01 </filecreationdate>
-    <version> $Id: c170.xml,v 1.0 2015/03/29 $ </version>
-    <description> Cessna C-170 </description>
+    <description> Cessna Turbo-C-170 </description>
+    <version> $Id: Turbo-c170.xml,v 1.0 2015/03/29 $ </version>
   </fileheader>
 
   <metrics>
@@ -184,7 +184,7 @@
     </contact>
   </ground_reactions>
   <propulsion>
-    <engine file="eng_io320">
+    <engine file="engtm601mod">
       <location unit="IN">
         <x> -19.7 </x>
         <y> 0 </y>
@@ -197,7 +197,7 @@
       </orient>
       <feed>0</feed>
       <feed>1</feed>
-      <thruster file="prop_75in2f">
+      <thruster file="dh-rotol90-4">
         <location unit="IN">
           <x> -37.7 </x>
           <y> 0 </y>
@@ -231,7 +231,7 @@
     <contents unit="LBS"> 100 </contents>
     </tank>
   </propulsion>
-  <flight_control name="FCS: c170">
+  <flight_control name="FCS: Turbo-c170">
     <channel name="Pitch">
       <summer name="Pitch Trim Sum">
         <input>fcs/elevator-cmd-norm</input>

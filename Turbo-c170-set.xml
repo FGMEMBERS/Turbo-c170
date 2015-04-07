@@ -11,7 +11,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
 
   <sim>
 
-    <description>Cessna 170 (1981 model)</description>
+    <description>Cessna Turbo-170 (1981 model)</description>
     <long-description>The Cessna 172 Skyhawk is a four-seat, single-engine, high-wing fixed-wing aircraft. 
     First flown in 1955 and still in production, more Cessna 172s have been built than any other aircraft.
     </long-description>
@@ -41,12 +41,12 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
 
 
     <flight-model archive="y">jsb</flight-model>
-    <aero archive="y">c170</aero>
+    <aero archive="y">Turbo-c170</aero>
 
     <allow-toggle-cockpit type="bool">true</allow-toggle-cockpit>
 
     <model>
-      <path archive="y">Aircraft/c170/Models/c170.xml</path>
+      <path archive="y">Aircraft/Turbo-c170/Models/Turbo-c170.xml</path>
 
       <livery>
 	<file type="string">n301dp</file>
@@ -63,17 +63,17 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
 	<index type="int">0</index>
       </liverywing>
 
-      <c170>
+      <Turbo-c170>
 	<immat type="bool">false</immat>
 	<fairing1 type="bool">true</fairing1>
 	<fairing2 type="bool">false</fairing2>
 	<fairing3 type="bool">false</fairing3>
-      </c170>
+      </Turbo-c170>
       <hide-yoke type="bool">false</hide-yoke>
     </model>
 
     <startup>
-      <splash-texture>Aircraft/c170/splash.png</splash-texture>
+      <splash-texture>Aircraft/Turbo-c170/splash.png</splash-texture>
     </startup>
 
     <!-- hide the 2D panel -->
@@ -96,11 +96,11 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
 
     <systems>
       <autopilot>
-	<path>Aircraft/c170/Systems/KAP140.xml</path>
+	<path>Aircraft/Turbo-c170/Systems/KAP140.xml</path>
       </autopilot>
       <property-rule n="100">
 	<name>FiltersOnly</name>
-	<path>Aircraft/c170/Systems/NAVandGSfilters.xml</path>
+	<path>Aircraft/Turbo-c170/Systems/NAVandGSfilters.xml</path>
       </property-rule>
       <electrical>
 	<!-- null electrical system path here so we can use a nasal based -->
@@ -110,14 +110,14 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
     </systems>
 
     <sound>
-      <path archive="y">Aircraft/c170/c170-sound.xml</path>
+      <path archive="y">Aircraft/Turbo-c170/Turbo-c170-sound.xml</path>
     </sound>
 
-    <help include="c170-help.xml"/>
+    <help include="Turbo-c170-help.xml"/>
     
-    <checklists include="c170-checklists.xml"/>
+    <checklists include="Turbo-c170-checklists.xml"/>
 
-    <tutorials include="Tutorials/c170-tutorials.xml"/>
+    <tutorials include="Tutorials/Turbo-c170-tutorials.xml"/>
     
     <dimensions>
       <radius-m type="double">5</radius-m>
@@ -147,9 +147,9 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
       </config>
     </flight-recorder>
 
-    <menubar include="Dialogs/c170-menu.xml"/>
+    <menubar include="Dialogs/Turbo-c170-menu.xml"/>
     <instrumentation n="0">
-      <path>Aircraft/c170/Systems/instrumentation.xml</path>
+      <path>Aircraft/Turbo-c170/Systems/instrumentation.xml</path>
     </instrumentation>
   </sim>
 
@@ -243,28 +243,28 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
       <rpm type="double">0</rpm>
       <magnetos type="int">0</magnetos>
       <mixture type="double">0</mixture>
-      <running type="bool">false</running>
+      <running type="bool">true</running>
     </engine>
   </engines>
 
   <nasal>
     
-    <c170>
-      <file>Aircraft/c170/Nasal/liveries.nas</file>
-      <file>Aircraft/c170/Nasal/immat.nas</file>
-      <file>Aircraft/c170/Nasal/doors.nas</file>
-      <file>Aircraft/c170/Nasal/light.nas</file>
-      <file>Aircraft/c170/Nasal/tanks.nas</file>
-      <file>Aircraft/c170/Nasal/kma20.nas</file>
-      <file>Aircraft/c170/Nasal/ki266.nas</file>
+    <Turbo-c170>
+      <file>Aircraft/Turbo-c170/Nasal/liveries.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/immat.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/doors.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/light.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/tanks.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/kma20.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/ki266.nas</file>
       <script><![CDATA[
       ki266.new(0);
       aircraft.data.add( "engines/engine[0]/egt-bug-norm" );
       ]]></script>
-    </c170>
+    </Turbo-c170>
 
     <electrical>
-      <file>Aircraft/c170/Nasal/c170-electrical.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/Turbo-c170-electrical.nas</file>
     </electrical>
     <kap140>
       <file>Aircraft/Generic/kap140.nas</file>
@@ -279,7 +279,7 @@ Started October 23 2001 by John Check, fgpanels@rockfish.net
       </script>
     </kap140>
     <kr87>
-      <file>Aircraft/c170/Nasal/kr87.nas</file>
+      <file>Aircraft/Turbo-c170/Nasal/kr87.nas</file>
     </kr87>
   </nasal>
   <payload>
